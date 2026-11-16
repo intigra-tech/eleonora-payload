@@ -38,7 +38,7 @@ strong { font-weight: 700; }
 /* hero */
 .hero { display: grid; grid-template-columns: 1fr 1fr; align-items: start; padding-bottom: 182px; }
 .hero-img img { width: 100%; height: auto; }
-.hero-text { padding: 32px 152px 0 86px; }
+.hero-text { align-self: center; padding: 0 21% 26px 12%; }
 .hero-text h1 { margin-bottom: 27px; }
 .hero-text .sub { font-size: 23px; line-height: 33px; font-weight: 400; margin-bottom: 9px; }
 .hero-text p { margin: 0; }
@@ -103,11 +103,11 @@ strong { font-weight: 700; }
 .tabs-body { padding-top: 33px; } .tabs-body p { margin-bottom: 26px; }
 
 /* chi sono */
-.profile-top { display: grid; grid-template-columns: 740px 360px; column-gap: 20px; justify-content: space-between; align-items: start; max-width: 1120px; margin: 0 auto; padding: 0; }
+.profile-top { display: grid; grid-template-columns: 740px 360px; column-gap: 20px; justify-content: space-between; align-items: start; max-width: 1120px; margin: 0 auto; padding: 20px 0 0; }
 .profile-text h5 { margin-bottom: 1px; }
 .profile-text h2 { margin-bottom: 9px; }
 .profile-img img { width: 100%; aspect-ratio: 650/861; object-fit: cover; display:block; }
-.profile-cols { display: grid; grid-template-columns: 1fr 1fr; column-gap: 20px; max-width: 1140px; margin: 0 auto; padding: 31px 0 20px; }
+.profile-cols { display: grid; grid-template-columns: 1fr 1fr; column-gap: 20px; max-width: 1140px; margin: 0 auto; padding: 38px 0 20px; }
 
 /* banner nero */
 .banner { background: #000; color: #fff; min-height: 450px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 40px 28px; }
