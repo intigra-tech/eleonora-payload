@@ -28,14 +28,5 @@ export const Projects: CollectionConfig = {
       labels: { singular: 'Immagine', plural: 'Immagini' },
       fields: [{ name: 'image', type: 'upload', relationTo: 'media', required: true }],
     },
-    {
-      name: 'seo',
-      type: 'group',
-      label: 'SEO',
-      fields: [
-        { name: 'title', type: 'text', label: 'Titolo SEO' },
-        { name: 'description', type: 'textarea', label: 'Meta description' },
-      ],
-    },
   ],
 }

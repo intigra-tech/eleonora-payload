@@ -17,9 +17,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params
   const p = await getProject(slug)
   if (!p) return {}
-  const desc = p.seo?.description || paragraphs(p.body)[0]?.replace(/\*+/g, '').slice(0, 160)
+  const desc = p.meta?.description || paragraphs(p.body)[0]?.replace(/\*+/g, '').slice(0, 160)
   return {
-    title: p.seo?.title ? { absolute: p.seo.title } : p.title,
+    title: p.meta?.title ? { absolute: p.meta.title } : p.title,
     description: desc,
     alternates: { canonical: `/portfolio-item/${slug}` },
     openGraph: { images: srcOf(p.cover, 'large') },

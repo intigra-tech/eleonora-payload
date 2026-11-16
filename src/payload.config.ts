@@ -5,6 +5,7 @@ import { buildConfig } from 'payload'
 import { fileURLToPath } from 'url'
 import sharp from 'sharp'
 import { mcpPlugin } from '@payloadcms/plugin-mcp'
+import { seoPlugin } from '@payloadcms/plugin-seo'
 
 import { Users } from './collections/Users'
 import { Media } from './collections/Media'
@@ -37,6 +38,17 @@ export default buildConfig({
   }),
   sharp,
   plugins: [
+    seoPlugin({
+      collections: ['pages', 'projects'],
+      uploadsCollection: 'media',
+      tabbedUI: false,
+      generateTitle: ({ doc }) => `${(doc as { title?: string }).title || ''} — Eleonora Righi, architetto a Carpi`,
+      generateDescription: ({ doc }) => {
+        const d = doc as { body?: string; layout?: { text?: string; intro?: string }[] }
+        const raw = d.body || d.layout?.find((b) => b.text || b.intro)?.text || d.layout?.find((b) => b.intro)?.intro || ''
+        return raw.replace(/\*+/g, '').replace(/\s+/g, ' ').trim().slice(0, 155)
+      },
+    }),
     mcpPlugin({
       userCollection: 'users',
       collections: {

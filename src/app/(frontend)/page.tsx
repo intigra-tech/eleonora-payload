@@ -12,7 +12,7 @@ async function getPage(slug: string) {
 export async function generateMetadata(): Promise<Metadata> {
   const p: any = await getPage('home') // eslint-disable-line @typescript-eslint/no-explicit-any
   if (!p) return {}
-  return { title: p.seo?.title ? { absolute: p.seo.title } : undefined, description: p.seo?.description || undefined, alternates: { canonical: '/' }, openGraph: { images: srcOf(p.seo?.image, 'large') } }
+  return { title: p.meta?.title ? { absolute: p.meta.title } : undefined, description: p.meta?.description || undefined, alternates: { canonical: '/' }, openGraph: { images: srcOf(p.meta?.image, 'large') } }
 }
 
 export default async function Home() {

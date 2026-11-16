@@ -43,7 +43,7 @@ export async function seedIfEmpty() {
     await payload.create({
       collection: 'projects',
       data: {
-        title: p.title, slug: p.slug, order: p.order, body: p.body, seo: p.seo,
+        title: p.title, slug: p.slug, order: p.order, body: p.body, meta: p.meta,
         categories: p.categories.map((s: string) => cats[s]).filter(Boolean),
         _status: 'published', cover: media[p.cover], gallery: p.gallery.map((g: string) => ({ image: media[g] })),
       } as any, // eslint-disable-line @typescript-eslint/no-explicit-any

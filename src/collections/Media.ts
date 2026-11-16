@@ -5,7 +5,7 @@ export const Media: CollectionConfig = {
   slug: 'media',
   labels: { singular: 'Immagine', plural: 'Immagini' },
   access: { read: () => true, create: canWrite, update: isStaff, delete: isStaff },
-  admin: { useAsTitle: 'alt' },
+  admin: { useAsTitle: 'alt', defaultColumns: ['filename', 'alt', 'createdAt'] },
   fields: [{ name: 'alt', type: 'text', label: 'Testo alternativo', required: true }],
   upload: {
     staticDir: process.env.MEDIA_DIR || 'media',

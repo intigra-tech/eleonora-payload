@@ -16,10 +16,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const p = await getPage(slug)
   if (!p) return {}
   return {
-    title: p.seo?.title ? { absolute: p.seo.title } : p.title,
-    description: p.seo?.description || undefined,
+    title: p.meta?.title ? { absolute: p.meta.title } : p.title,
+    description: p.meta?.description || undefined,
     alternates: { canonical: `/${slug}` },
-    openGraph: { images: srcOf(p.seo?.image, 'large') },
+    openGraph: { images: srcOf(p.meta?.image, 'large') },
   }
 }
 

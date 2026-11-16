@@ -7,6 +7,7 @@ const dirname = path.dirname(fileURLToPath(import.meta.url))
 
 const nextConfig: NextConfig = {
   output: 'standalone',
+  experimental: { cpus: 1, webpackMemoryOptimizations: true },
   poweredByHeader: false,
   async redirects() {
     return [

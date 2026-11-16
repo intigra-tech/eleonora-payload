@@ -280,9 +280,12 @@ export interface Page {
           }
       )[]
     | null;
-  seo?: {
+  meta?: {
     title?: string | null;
     description?: string | null;
+    /**
+     * Maximum upload file size: 12MB. Recommended file size for images is <500KB.
+     */
     image?: (number | null) | Media;
   };
   updatedAt: string;
@@ -352,9 +355,13 @@ export interface Project {
         id?: string | null;
       }[]
     | null;
-  seo?: {
+  meta?: {
     title?: string | null;
     description?: string | null;
+    /**
+     * Maximum upload file size: 12MB. Recommended file size for images is <500KB.
+     */
+    image?: (number | null) | Media;
   };
   updatedAt: string;
   createdAt: string;
@@ -727,7 +734,7 @@ export interface PagesSelect<T extends boolean = true> {
               blockName?: T;
             };
       };
-  seo?:
+  meta?:
     | T
     | {
         title?: T;
@@ -755,11 +762,12 @@ export interface ProjectsSelect<T extends boolean = true> {
         image?: T;
         id?: T;
       };
-  seo?:
+  meta?:
     | T
     | {
         title?: T;
         description?: T;
+        image?: T;
       };
   updatedAt?: T;
   createdAt?: T;
