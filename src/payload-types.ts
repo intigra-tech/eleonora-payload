@@ -469,6 +469,16 @@ export interface PayloadMcpApiKey {
      */
     find?: boolean | null;
   };
+  'payload-mcp-tool'?: {
+    /**
+     * Crea un link temporaneo (2 ore) con cui il cliente può caricare foto nella libreria del sito trascinandole in una pagina, senza fare login. Da usare quando servono foto nuove.
+     */
+    createUploadLink?: boolean | null;
+    /**
+     * Scarica un'immagine da un URL pubblico https (max 15 MB) e la aggiunge alla libreria immagini. Restituisce l'ID del media da collegare a pagine o progetti.
+     */
+    importImageFromUrl?: boolean | null;
+  };
   updatedAt: string;
   createdAt: string;
   enableAPIKey?: boolean | null;
@@ -882,6 +892,12 @@ export interface PayloadMcpApiKeysSelect<T extends boolean = true> {
     | T
     | {
         find?: T;
+      };
+  'payload-mcp-tool'?:
+    | T
+    | {
+        createUploadLink?: T;
+        importImageFromUrl?: T;
       };
   updatedAt?: T;
   createdAt?: T;

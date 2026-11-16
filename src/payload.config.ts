@@ -14,6 +14,7 @@ import { ProjectCategories } from './collections/ProjectCategories'
 import { SiteSettings } from './globals/SiteSettings'
 import { migrations } from './migrations'
 import { roleOf } from './lib/access'
+import { customTools, mcpInstructions } from './lib/mcpTools'
 
 const filename = fileURLToPath(import.meta.url)
 const dirname = path.dirname(filename)
@@ -45,6 +46,7 @@ export default buildConfig({
         media: { enabled: { find: true }, description: 'Libreria immagini (sola lettura).' },
       },
       globals: { 'site-settings': { enabled: { find: true }, description: 'Impostazioni generali del sito (sola lettura).' } },
+      mcp: { serverOptions: { instructions: mcpInstructions, serverInfo: { name: 'Sito Eleonora Righi', version: '1.0.0' } }, tools: customTools },
       overrideApiKeyCollection: (collection) => {
         const adminOnly = ({ req: { user } }: { req: { user?: unknown } }) => roleOf(user) === 'admin'
         return {

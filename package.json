@@ -32,7 +32,8 @@
     "payload": "3.93.0",
     "react": "19.2.9",
     "react-dom": "19.2.9",
-    "sharp": "0.35.4"
+    "sharp": "0.35.4",
+    "zod3": "npm:zod@^3.25.76"
   },
   "devDependencies": {
     "@playwright/test": "1.63.0",
