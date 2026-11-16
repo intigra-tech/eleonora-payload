@@ -5,6 +5,7 @@ import '@fontsource-variable/dm-sans'
 import './styles.css'
 import { getP } from '@/lib/payload'
 import { Consent } from '@/components/Consent'
+import { NavLinks } from '@/components/NavLinks'
 
 export const dynamic = 'force-dynamic'
 
@@ -33,7 +34,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
               <img src="/logo.png" alt={s.siteName} width={757} height={140} />
             </Link>
             <nav aria-label="Menu principale">
-              <ul>{nav.map((n) => <li key={n.url}><Link href={n.url}>{n.label}</Link></li>)}</ul>
+              <NavLinks nav={nav} />
             </nav>
           </div>
         </header>

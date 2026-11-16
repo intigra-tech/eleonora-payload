@@ -155,3 +155,19 @@ p { margin: 0 0 1em; }
   .hero, .features, .cta, .steps { grid-template-columns: 1fr; gap: 32px; } .hero-text { padding: 40px 28px; }
   .hero-img img { min-height: 320px; } .cta-card { padding: 40px 28px; } .features { gap: 32px; }
 }
+
+/* v3: allineamento all'originale */
+.site-header { border-bottom: 1px solid #000; }
+.hdr { padding-top: 30px; padding-bottom: 26px; gap: 22px; }
+.logo img { height: 62px; }
+.site-header ul { gap: 44px; }
+.site-header nav a { font-size: 16px; letter-spacing: 0; text-transform: none; padding: 2px 0; }
+.site-header nav a[aria-current='page'] { border-color: var(--ink); }
+.hero-text { padding: 56px clamp(28px, 6vw, 130px) 56px clamp(28px, 6vw, 130px); max-width: none; width: 100%; }
+.hero-text .sub { font-size: 22px; color: var(--ink); margin-bottom: 14px; }
+.hero-text p { font-size: 16px; color: #000; line-height: 1.6; margin: 0; }
+.hero-text .btn { margin-top: 36px; }
+.btn { background: #000; border-color: #000; font-size: 16px; letter-spacing: 0; text-transform: none; padding: 18px 45px; }
+.btn:hover { background: #fff; color: #000; }
+.hero-img img { min-height: 0; }
+.hero { min-height: 0; }
