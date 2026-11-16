@@ -3,7 +3,7 @@ import type { GlobalConfig } from 'payload'
 export const SiteSettings: GlobalConfig = {
   slug: 'site-settings',
   label: 'Impostazioni del sito',
-  access: { read: () => true },
+  access: { read: () => true, update: ({ req: { user } }) => ['admin', 'editor'].includes((user as { role?: string } | null)?.role as string) },
   fields: [
     { name: 'siteName', type: 'text', label: 'Nome del sito', required: true, defaultValue: 'Eleonora Righi' },
     { name: 'tagline', type: 'text', label: 'Descrizione breve', defaultValue: 'Architetto d’interni' },

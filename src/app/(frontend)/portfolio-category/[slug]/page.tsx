@@ -17,7 +17,7 @@ export default async function Category({ params }: Props) {
   const payload = await getP()
   const c = (await payload.find({ collection: 'project-categories', where: { slug: { equals: slug } }, limit: 1 })).docs[0]
   if (!c) notFound()
-  const r = await payload.find({ collection: 'projects', where: { categories: { contains: c.id } }, sort: 'order', limit: 100, depth: 1 })
+  const r = await payload.find({ collection: 'projects', where: { categories: { contains: c.id }, _status: { equals: 'published' } }, sort: 'order', limit: 100, depth: 1 })
   return (
     <section className="wrap projects">
       <p className="eyebrow">Categoria</p>

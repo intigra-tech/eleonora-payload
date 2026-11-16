@@ -5,7 +5,7 @@ import { Blocks } from '@/components/Blocks'
 
 async function getPage(slug: string) {
   const payload = await getP()
-  const r = await payload.find({ collection: 'pages', where: { slug: { equals: slug } }, limit: 1, depth: 2 })
+  const r = await payload.find({ collection: 'pages', where: { slug: { equals: slug }, _status: { equals: 'published' } }, limit: 1, depth: 2 })
   return r.docs[0]
 }
 

@@ -1,11 +1,13 @@
 import type { CollectionConfig } from 'payload'
+import { canWrite, isStaff, publishedOrAuth, forceDraftForAssistant, blockPublishForAssistant } from '../lib/access'
 
 export const Projects: CollectionConfig = {
   slug: 'projects',
   labels: { singular: 'Progetto', plural: 'Progetti' },
   admin: { useAsTitle: 'title', defaultColumns: ['title', 'categories', 'order', 'updatedAt'] },
-  access: { read: () => true },
-  versions: { drafts: false, maxPerDoc: 20 },
+  access: { read: publishedOrAuth, create: canWrite, update: canWrite, delete: isStaff },
+  hooks: { beforeOperation: [forceDraftForAssistant], beforeValidate: [blockPublishForAssistant] },
+  versions: { drafts: { autosave: false }, maxPerDoc: 20 },
   defaultSort: 'order',
   fields: [
     { name: 'title', type: 'text', label: 'Titolo', required: true },

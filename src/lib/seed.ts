@@ -17,7 +17,7 @@ export async function seedIfEmpty() {
   if (process.env.ADMIN_EMAIL && process.env.ADMIN_PASSWORD) {
     const u = await payload.count({ collection: 'users' })
     if (u.totalDocs === 0)
-      await payload.create({ collection: 'users', data: { email: process.env.ADMIN_EMAIL, password: process.env.ADMIN_PASSWORD, name: 'Admin' } })
+      await payload.create({ collection: 'users', data: { email: process.env.ADMIN_EMAIL, password: process.env.ADMIN_PASSWORD, name: 'Admin', role: 'admin' } })
   }
 
   const titleOf: Record<string, string> = {}
@@ -45,12 +45,12 @@ export async function seedIfEmpty() {
       data: {
         title: p.title, slug: p.slug, order: p.order, body: p.body, seo: p.seo,
         categories: p.categories.map((s: string) => cats[s]).filter(Boolean),
-        cover: media[p.cover], gallery: p.gallery.map((g: string) => ({ image: media[g] })),
+        _status: 'published', cover: media[p.cover], gallery: p.gallery.map((g: string) => ({ image: media[g] })),
       } as any, // eslint-disable-line @typescript-eslint/no-explicit-any
     })
 
   for (const pg of c.pages)
-    await payload.create({ collection: 'pages', data: resolve(pg) as any }) // eslint-disable-line @typescript-eslint/no-explicit-any
+    await payload.create({ collection: 'pages', data: { ...resolve(pg), _status: 'published' } as any }) // eslint-disable-line @typescript-eslint/no-explicit-any
 
   await payload.updateGlobal({ slug: 'site-settings', data: { ...c.site, contentVersion: c.version || 1 } })
   payload.logger.info('Seed: completato')
@@ -82,8 +82,8 @@ async function syncPages(payload: any, c: any, dir: string) { // eslint-disable-
   }
   for (const pg of c.pages) {
     const r = await payload.find({ collection: 'pages', where: { slug: { equals: pg.slug } }, limit: 1 })
-    if (r.docs[0]) await payload.update({ collection: 'pages', id: r.docs[0].id, data: resolve(pg) })
-    else await payload.create({ collection: 'pages', data: resolve(pg) })
+    if (r.docs[0]) await payload.update({ collection: 'pages', id: r.docs[0].id, data: { ...resolve(pg), _status: 'published' } as any })
+    else await payload.create({ collection: 'pages', data: { ...resolve(pg), _status: 'published' } as any })
   }
   await payload.updateGlobal({ slug: 'site-settings', data: { contentVersion: want } })
   payload.logger.info('Seed: pagine aggiornate')

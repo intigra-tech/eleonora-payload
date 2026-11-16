@@ -7,8 +7,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const base = process.env.SITE_URL || 'https://eleonora.intigra.it'
   const payload = await getP()
   const [pages, projects, cats] = await Promise.all([
-    payload.find({ collection: 'pages', limit: 100, depth: 0 }),
-    payload.find({ collection: 'projects', limit: 200, depth: 0 }),
+    payload.find({ collection: 'pages', where: { _status: { equals: 'published' } }, limit: 100, depth: 0 }),
+    payload.find({ collection: 'projects', where: { _status: { equals: 'published' } }, limit: 200, depth: 0 }),
     payload.find({ collection: 'project-categories', limit: 50, depth: 0 }),
   ])
   return [

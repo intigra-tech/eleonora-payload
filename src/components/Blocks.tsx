@@ -121,7 +121,7 @@ export async function Blocks({ layout }: { layout?: B[] }) {
         ); break
       case 'projectsGrid': {
         const payload = await getP()
-        const r = await payload.find({ collection: 'projects', sort: 'order', limit: b.limit || 100, depth: 1 })
+        const r = await payload.find({ collection: 'projects', where: { _status: { equals: 'published' } }, sort: 'order', limit: b.limit || 100, depth: 1 })
         if (b.layout === 'gallery') {
           out.push(
             <section key={i} className="c proj-gallery">
