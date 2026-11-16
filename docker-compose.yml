@@ -3,10 +3,10 @@ services:
     build: .
     restart: unless-stopped
     environment:
-      - SERVICE_FQDN_APP_3000
+      - SERVICE_URL_APP_3000
       - DATABASE_URL=postgres://payload:${SERVICE_PASSWORD_POSTGRES}@db:5432/payload
       - PAYLOAD_SECRET=${SERVICE_PASSWORD_64_PAYLOAD}
-      - SITE_URL=${SERVICE_FQDN_APP}
+      - SITE_URL=${SERVICE_URL_APP}
       - ADMIN_EMAIL=${ADMIN_EMAIL}
       - ADMIN_PASSWORD=${ADMIN_PASSWORD}
       - NOINDEX=${NOINDEX:-1}
