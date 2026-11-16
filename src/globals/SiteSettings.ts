@@ -29,6 +29,7 @@ export const SiteSettings: GlobalConfig = {
       ],
     },
     { name: 'footerText', type: 'text', label: 'Testo del piè di pagina' },
+    { name: 'contentVersion', type: 'number', admin: { hidden: true }, label: 'Versione contenuti importati' },
     { name: 'gaId', type: 'text', label: 'ID Google Analytics (G-XXXX; caricato solo dopo il consenso)' },
   ],
 }

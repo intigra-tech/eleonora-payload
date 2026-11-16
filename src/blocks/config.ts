@@ -48,6 +48,7 @@ export const Features: Block = {
       ],
     },
     { name: 'image', type: 'upload', relationTo: 'media', label: 'Immagine' },
+    { name: 'imageWidth', type: 'number', label: 'Larghezza immagine in px (vuoto = 414)' },
   ],
 }
 
@@ -61,6 +62,44 @@ export const CallToAction: Block = {
     { name: 'buttonLabel', type: 'text', label: 'Testo pulsante' },
     link('buttonLink'),
     { name: 'image', type: 'upload', relationTo: 'media', label: 'Immagine' },
+    {
+      name: 'variant',
+      type: 'select',
+      label: 'Stile',
+      defaultValue: 'box',
+      options: [
+        { label: 'Riquadro grigio con immagine', value: 'box' },
+        { label: 'Fascia scura centrata con sfondo', value: 'dark' },
+      ],
+    },
+    { name: 'background', type: 'upload', relationTo: 'media', label: 'Immagine di sfondo (stile scuro)' },
+  ],
+}
+
+export const PageBanner: Block = {
+  slug: 'pageBanner',
+  labels: { singular: 'Banner nero con titolo', plural: 'Banner neri' },
+  fields: [
+    { name: 'title', type: 'text', label: 'Titolo (H1)', required: true },
+    { name: 'subtitle', type: 'text', label: 'Sottotitolo' },
+  ],
+}
+
+export const Profile: Block = {
+  slug: 'profile',
+  labels: { singular: 'Presentazione (testo + ritratto)', plural: 'Presentazioni' },
+  fields: [
+    { name: 'eyebrow', type: 'text', label: 'Sopratitolo' },
+    { name: 'heading', type: 'text', label: 'Titolo', required: true },
+    { name: 'text', type: 'textarea', label: 'Testo (paragrafi separati da riga vuota; **grassetto** supportato)' },
+    { name: 'image', type: 'upload', relationTo: 'media', label: 'Ritratto' },
+    {
+      name: 'columns',
+      type: 'array',
+      label: 'Colonne di testo sotto',
+      maxRows: 2,
+      fields: [{ name: 'text', type: 'textarea', label: 'Testo', required: true }],
+    },
   ],
 }
 
@@ -72,7 +111,17 @@ export const ProjectsGrid: Block = {
     { name: 'heading', type: 'text', label: 'Titolo' },
     { name: 'intro', type: 'text', label: 'Testo introduttivo' },
     { name: 'limit', type: 'number', label: 'Quanti progetti mostrare (vuoto = tutti)' },
-    { name: 'buttonLabel', type: 'text', label: 'Testo pulsante "tutti i progetti"' },
+    {
+      name: 'layout',
+      type: 'select',
+      label: 'Disposizione',
+      defaultValue: 'squares',
+      options: [
+        { label: 'Griglia di quadrati (3 colonne)', value: 'squares' },
+        { label: 'Immagini grandi a tutta larghezza', value: 'gallery' },
+      ],
+    },
+    { name: 'buttonLabel', type: 'text', label: 'Testo pulsante (opzionale)' },
     link('buttonLink'),
   ],
 }
@@ -83,8 +132,17 @@ export const About: Block = {
   fields: [
     { name: 'eyebrow', type: 'text', label: 'Sopratitolo' },
     { name: 'heading', type: 'text', label: 'Titolo', required: true },
-    { name: 'text', type: 'textarea', label: 'Testo (paragrafi separati da riga vuota)' },
-    { name: 'badges', type: 'array', label: 'Etichette', fields: [{ name: 'label', type: 'text', required: true }] },
+    { name: 'text', type: 'textarea', label: 'Testo (se non ci sono schede)' },
+    {
+      name: 'tabs',
+      type: 'array',
+      label: 'Schede (Esperienza / Qualità / Recensioni…)',
+      fields: [
+        { name: 'label', type: 'text', required: true },
+        { name: 'text', type: 'textarea', label: 'Testo (**grassetto** supportato)', required: true },
+      ],
+    },
+    { name: 'badges', type: 'array', label: 'Etichette (non usate)', admin: { condition: () => false }, fields: [{ name: 'label', type: 'text', required: true }] },
     { name: 'image', type: 'upload', relationTo: 'media', label: 'Immagine' },
     { name: 'buttonLabel', type: 'text', label: 'Testo pulsante' },
     link('buttonLink'),
@@ -102,4 +160,4 @@ export const ContactInfo: Block = {
   ],
 }
 
-export const allBlocks = [Hero, Steps, Features, CallToAction, ProjectsGrid, About, ContactInfo]
+export const allBlocks = [Hero, Steps, Features, CallToAction, PageBanner, Profile, ProjectsGrid, About, ContactInfo]

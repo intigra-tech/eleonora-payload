@@ -172,6 +172,7 @@ export interface Page {
                 }[]
               | null;
             image?: (number | null) | Media;
+            imageWidth?: number | null;
             id?: string | null;
             blockName?: string | null;
             blockType: 'features';
@@ -183,15 +184,40 @@ export interface Page {
             buttonLabel?: string | null;
             buttonLink?: string | null;
             image?: (number | null) | Media;
+            variant?: ('box' | 'dark') | null;
+            background?: (number | null) | Media;
             id?: string | null;
             blockName?: string | null;
             blockType: 'cta';
+          }
+        | {
+            title: string;
+            subtitle?: string | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'pageBanner';
+          }
+        | {
+            eyebrow?: string | null;
+            heading: string;
+            text?: string | null;
+            image?: (number | null) | Media;
+            columns?:
+              | {
+                  text: string;
+                  id?: string | null;
+                }[]
+              | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'profile';
           }
         | {
             eyebrow?: string | null;
             heading?: string | null;
             intro?: string | null;
             limit?: number | null;
+            layout?: ('squares' | 'gallery') | null;
             buttonLabel?: string | null;
             buttonLink?: string | null;
             id?: string | null;
@@ -202,6 +228,13 @@ export interface Page {
             eyebrow?: string | null;
             heading: string;
             text?: string | null;
+            tabs?:
+              | {
+                  label: string;
+                  text: string;
+                  id?: string | null;
+                }[]
+              | null;
             badges?:
               | {
                   label: string;
@@ -481,6 +514,7 @@ export interface PagesSelect<T extends boolean = true> {
                     id?: T;
                   };
               image?: T;
+              imageWidth?: T;
               id?: T;
               blockName?: T;
             };
@@ -493,6 +527,32 @@ export interface PagesSelect<T extends boolean = true> {
               buttonLabel?: T;
               buttonLink?: T;
               image?: T;
+              variant?: T;
+              background?: T;
+              id?: T;
+              blockName?: T;
+            };
+        pageBanner?:
+          | T
+          | {
+              title?: T;
+              subtitle?: T;
+              id?: T;
+              blockName?: T;
+            };
+        profile?:
+          | T
+          | {
+              eyebrow?: T;
+              heading?: T;
+              text?: T;
+              image?: T;
+              columns?:
+                | T
+                | {
+                    text?: T;
+                    id?: T;
+                  };
               id?: T;
               blockName?: T;
             };
@@ -503,6 +563,7 @@ export interface PagesSelect<T extends boolean = true> {
               heading?: T;
               intro?: T;
               limit?: T;
+              layout?: T;
               buttonLabel?: T;
               buttonLink?: T;
               id?: T;
@@ -514,6 +575,13 @@ export interface PagesSelect<T extends boolean = true> {
               eyebrow?: T;
               heading?: T;
               text?: T;
+              tabs?:
+                | T
+                | {
+                    label?: T;
+                    text?: T;
+                    id?: T;
+                  };
               badges?:
                 | T
                 | {
@@ -726,6 +794,7 @@ export interface SiteSetting {
     hours?: string | null;
   };
   footerText?: string | null;
+  contentVersion?: number | null;
   gaId?: string | null;
   updatedAt?: string | null;
   createdAt?: string | null;
@@ -754,6 +823,7 @@ export interface SiteSettingsSelect<T extends boolean = true> {
         hours?: T;
       };
   footerText?: T;
+  contentVersion?: T;
   gaId?: T;
   updatedAt?: T;
   createdAt?: T;

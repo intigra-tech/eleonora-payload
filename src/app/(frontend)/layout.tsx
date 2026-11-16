@@ -28,7 +28,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
       <body>
         <a className="skip" href="#main">Salta al contenuto</a>
         <header className="site-header">
-          <div className="wrap hdr">
+          <div className="hdr">
             <Link href="/" className="logo" aria-label={s.siteName}>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src="/logo.png" alt={s.siteName} width={757} height={140} />
@@ -40,16 +40,17 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         </header>
         <main id="main">{children}</main>
         <footer className="site-footer">
-          <div className="wrap foot">
+          <div className="foot">
             <div>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src="/logo-footer.png" alt="" width={150} height={112} />
-              <h4>{s.siteName} Architetto</h4>
+              <h5>{s.siteName} Architetto</h5>
               {s.footerText && <p>{s.footerText}</p>}
             </div>
-            <div><h4>Carpi</h4><p style={{ whiteSpace: 'pre-line' }}>{c.address}</p></div>
-            <div><h4>Pagine</h4><ul>{nav.filter((n) => n.url !== '/').map((n) => <li key={n.url}><Link href={n.url}>{n.label}</Link></li>)}</ul></div>
-            <div><h4>Contatti</h4><p>{c.email && <a href={`mailto:${c.email}`}>{c.email}</a>}<br />{c.phone}</p></div>
+            <div className="col-addr"><h5>Carpi</h5><p style={{ whiteSpace: 'pre-line' }}>{c.address}</p></div>
+            <div className="col-pages"><h5>Pagine</h5><ul>{nav.filter((n) => n.url !== '/').map((n) => <li key={n.url}><Link href={n.url}>{n.url === '/progetti' ? 'Portfolio' : n.label}</Link></li>)}</ul></div>
+            <div />
+            {c.email && <a className="foot-mail" href={`mailto:${c.email}`}>{c.email}</a>}
           </div>
         </footer>
         <Consent gaId={s.gaId} />

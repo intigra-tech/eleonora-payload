@@ -121,28 +121,27 @@
      "eyebrow": "Come lavoro",
      "heading": "Progetti e interventi",
      "limit": 9,
-     "buttonLabel": "Tutti i progetti",
-     "buttonLink": "/progetti"
+     "layout": "squares"
     },
     {
      "blockType": "about",
      "eyebrow": "Chi Sono",
      "heading": "Conosciamoci meglio",
-     "badges": [
-      {
-       "label": "Esperienza"
-      },
-      {
-       "label": "Qualità"
-      },
-      {
-       "label": "Recensioni"
-      }
-     ],
-     "text": "Sono Eleonora Righi, architetto d’interni con oltre dieci anni di esperienza nella progettazione di spazi unici e personalizzati. Conosco profondamente il territorio, i migliori fornitori e i marchi di eccellenza, elementi che mi permettono di realizzare ambienti esclusivi e curati in ogni dettaglio. Grazie alla mia sensibilità estetica e alla mia capacità di abbinare idee e scelte di arredo, riesco a trasformare ogni spazio in un luogo che racconta una storia e rispecchia la personalità di chi lo vive.\n\nOgni progetto è realizzato con materiali di prima qualità, selezionati con cura per garantire bellezza e durata nel tempo. La mia attenzione ai dettagli si riflette in ogni fase, dalla progettazione alla gestione del cantiere, assicurandomi che ogni finitura sia impeccabile e che ogni scelta rispetti gli standard più elevati di estetica e funzionalità.\n\nI miei clienti apprezzano non solo il risultato finale dei loro spazi, ma anche l’intero percorso di progettazione e realizzazione. Mi riconoscono una grande capacità di ascolto, attenzione ai dettagli e una visione chiara che trasforma le loro idee in realtà. Affidarsi a me significa avere la sicurezza di un progetto seguito con passione, precisione e dedizione.",
      "image": "@2025/04/X9A1300-Modifica.jpg",
-     "buttonLabel": "Chi sono",
-     "buttonLink": "/chi-sono"
+     "tabs": [
+      {
+       "label": "Esperienza",
+       "text": "Sono **Eleonora Righi, architetto d’interni con oltre dieci anni di esperienza** nella progettazione di spazi unici e personalizzati. Conosco profondamente il territorio, i **migliori fornitori** e i **marchi di eccellenza**, elementi che mi permettono di realizzare ambienti esclusivi e curati in ogni dettaglio. Grazie alla mia sensibilità estetica e alla mia capacità di abbinare idee e scelte di arredo, riesco a **trasformare ogni spazio in un luogo che racconta una storia** e rispecchia la personalità di chi lo vive."
+      },
+      {
+       "label": "Qualità",
+       "text": "Ogni progetto è realizzato con materiali di prima qualità, selezionati con cura per garantire bellezza e durata nel tempo. La mia attenzione ai dettagli si riflette in ogni fase, **dalla progettazione alla gestione del cantiere**, assicurandomi che ogni finitura sia impeccabile e che ogni scelta rispetti gli standard più elevati di estetica e funzionalità."
+      },
+      {
+       "label": "Recensioni",
+       "text": "I miei clienti apprezzano non solo il risultato finale dei loro spazi, ma anche l’intero **percorso di progettazione e realizzazione**. Mi riconoscono una grande capacità di ascolto, attenzione ai dettagli e una visione chiara che trasforma le loro idee in realtà. **Affidarsi a me significa avere la sicurezza di un progetto seguito con passione, precisione e dedizione.**"
+      }
+     ]
     }
    ],
    "seo": {
@@ -155,20 +154,29 @@
    "title": "Chi Sono",
    "layout": [
     {
-     "blockType": "about",
+     "blockType": "profile",
      "eyebrow": "Chi sono e cosa faccio",
      "heading": "Eleonora Righi, architetto d’interni",
-     "text": "Sono Eleonora Righi, architetto d’interni con oltre dieci anni di esperienza nella progettazione di spazi unici e personalizzati.\n\nConosco profondamente il territorio, i migliori fornitori e i marchi di eccellenza, elementi che mi permettono di realizzare ambienti esclusivi e curati in ogni dettaglio. Grazie alla mia sensibilità estetica e alla mia capacità di abbinare idee e scelte di arredo, riesco a trasformare ogni spazio in un luogo che racconta una storia e rispecchia la personalità di chi lo vive.\n\nAffidarsi a me significa avere la sicurezza di un progetto seguito con passione, precisione e dedizione.\n\nOgni progetto è realizzato con materiali di prima qualità, selezionati con cura per garantire bellezza e durata nel tempo. La mia attenzione ai dettagli si riflette in ogni fase, dalla progettazione alla gestione del cantiere, assicurandomi che ogni finitura sia impeccabile e che ogni scelta rispetti gli standard più elevati di estetica e funzionalità.\n\nI miei clienti apprezzano non solo il risultato finale dei loro spazi, ma anche l’intero percorso di progettazione e realizzazione. Mi riconoscono una grande capacità di ascolto, attenzione ai dettagli e una visione chiara che trasforma le loro idee in realtà.",
-     "image": "@2026/10/ele.jpg"
+     "text": "Sono Eleonora Righi, architetto d’interni con oltre dieci anni di esperienza nella progettazione di spazi unici e personalizzati.\n\n**Conosco profondamente il territorio, i migliori fornitori e i marchi di eccellenza**, elementi che mi permettono di realizzare ambienti esclusivi e curati in ogni dettaglio. Grazie alla mia sensibilità estetica e alla mia capacità di abbinare idee e scelte di arredo, riesco a trasformare ogni spazio in un luogo che racconta una storia e rispecchia la personalità di chi lo vive.\n\n**Affidarsi a me significa avere la sicurezza di un progetto seguito con passione, precisione e dedizione.**",
+     "image": "@2026/10/ele.jpg",
+     "columns": [
+      {
+       "text": "Ogni progetto è realizzato con materiali di prima qualità, selezionati con cura per garantire bellezza e durata nel tempo. La mia attenzione ai dettagli si riflette in ogni fase, **dalla progettazione alla gestione del cantiere**, assicurandomi che ogni finitura sia impeccabile e che ogni scelta rispetti gli standard più elevati di estetica e funzionalità."
+      },
+      {
+       "text": "I miei clienti apprezzano non solo il risultato finale dei loro spazi, ma anche l’intero **percorso di progettazione e realizzazione**. Mi riconoscono una grande capacità di ascolto, attenzione ai dettagli e una visione chiara che trasforma le loro idee in realtà."
+      }
+     ]
     },
     {
-     "blockType": "projectsGrid",
+     "blockType": "cta",
+     "variant": "dark",
      "eyebrow": "Progetti",
      "heading": "Guarda gli interventi",
-     "intro": "Guarda le cose che ho realizzato.",
-     "limit": 3,
+     "text": "Guarda le cose che ho realizzato.",
      "buttonLabel": "Progetti",
-     "buttonLink": "/progetti"
+     "buttonLink": "/progetti",
+     "background": "@2025/04/background-scaled.jpg"
     },
     {
      "blockType": "features",
@@ -191,15 +199,8 @@
        "text": "La mia esperienza e il mio approccio metodico assicurano un ambiente perfetto sotto ogni punto di vista."
       }
      ],
-     "image": "@2025/04/02.jpg"
-    },
-    {
-     "blockType": "cta",
-     "heading": "Ti piace questo stile?",
-     "text": "Se vuoi arredare i tuoi spazi e vuoi progettarli insieme a me, contattami ora.",
-     "buttonLabel": "Contatti",
-     "buttonLink": "/contatti",
-     "image": "@2026/10/Q.jpg"
+     "image": "@2025/04/02.jpg",
+     "imageWidth": 259
     }
    ],
    "seo": {
@@ -212,9 +213,13 @@
    "title": "Progetti",
    "layout": [
     {
+     "blockType": "pageBanner",
+     "title": "Progetti",
+     "subtitle": "Scopri come lavoro attraverso i miei interventi e progetti"
+    },
+    {
      "blockType": "projectsGrid",
-     "heading": "Progetti",
-     "intro": "Scopri come lavoro attraverso i miei interventi e progetti"
+     "layout": "gallery"
     }
    ],
    "seo": {
@@ -229,7 +234,7 @@
     {
      "blockType": "contactInfo",
      "heading": "Contattami",
-     "intro": "Usa i recapiti che trovi in questa pagina per contattarmi. Sono di base a Carpi (MO) e lavoro in tutta la regione.\n\nSu richiesta posso spostarmi in tutta Italia.",
+     "intro": "Usa i recapiti che trovi in questa pagina per contattarmi. **Sono di base a Carpi (MO)** e lavoro in tutta la regione.\n\nSu richiesta posso spostarmi in tutta Italia.",
      "note": "Si riceve solo su appuntamento.",
      "image": "@2025/04/BMW4748.jpg"
     }
@@ -829,6 +834,8 @@
   "2026/10/IMG_0179.jpeg",
   "2026/10/Q.jpg",
   "2026/10/ele.jpg",
-  "2026/10/foto-01-copia.jpg.jpeg"
- ]
+  "2026/10/foto-01-copia.jpg.jpeg",
+  "2025/04/background-scaled.jpg"
+ ],
+ "version": 2
 }

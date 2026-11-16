@@ -37,15 +37,17 @@ export default async function Project({ params }: Props) {
       thumb: srcOf(m, 'card')!, srcSet: srcSet(m), full: srcOf(m, 'large')!, alt: m.alt || p.title, w: m.width, h: m.height,
     }))
   return (
-    <article className="wrap project">
-      <h1>{p.title}</h1>
+    <article>
+      <section className="banner"><h1>{p.title}</h1></section>
       <Gallery items={items} />
-      <div className="prose">
+      <div className="proj-body">
         {paragraphs(p.body).map((t, i) => <p key={i} dangerouslySetInnerHTML={{ __html: inline(t) }} />)}
       </div>
-      <section className="band dark ctabox">
-        <h2>Ti piace questo stile?</h2>
-        <p>Se vuoi arredare i tuoi spazi e vuoi progettarli insieme a me, contattami ora.</p>
+      <section className="ctabox">
+        <div>
+          <h5>Ti piace questo stile?</h5>
+          <p>Se vuoi arredare i tuoi spazi e vuoi progettarli insieme a me, contattami ora.</p>
+        </div>
         <Link href="/contatti" className="btn">Contatti</Link>
       </section>
     </article>
