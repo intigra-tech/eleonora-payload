@@ -1,0 +1,834 @@
+{
+ "site": {
+  "siteName": "Eleonora Righi",
+  "tagline": "Architetto d’interni",
+  "nav": [
+   {
+    "label": "Home",
+    "url": "/"
+   },
+   {
+    "label": "Chi Sono",
+    "url": "/chi-sono"
+   },
+   {
+    "label": "Progetti",
+    "url": "/progetti"
+   },
+   {
+    "label": "Contatti",
+    "url": "/contatti"
+   }
+  ],
+  "contacts": {
+   "addressTitle": "Indirizzo Carpi",
+   "address": "Piazzale Bertesi 8/A\n41012 Carpi (MO)",
+   "email": "architetto@eleonorarighi.com",
+   "phone": "333 213 2900",
+   "hours": "Lun - Ven: 9.00 - 19.00"
+  },
+  "footerText": "P.IVA: 03739220360"
+ },
+ "categories": [
+  {
+   "slug": "arredo",
+   "title": "Arredo"
+  },
+  {
+   "slug": "commerciale",
+   "title": "Commerciale"
+  },
+  {
+   "slug": "render",
+   "title": "Render"
+  },
+  {
+   "slug": "ristrutturazioni",
+   "title": "Ristrutturazioni"
+  }
+ ],
+ "pages": [
+  {
+   "slug": "home",
+   "title": "Home",
+   "layout": [
+    {
+     "blockType": "hero",
+     "title": "Dare forma alle idee",
+     "subtitle": "Trasformare spazi in emozioni",
+     "text": "La progettazione chiavi in mano è un viaggio che va oltre la semplice creazione di uno spazio. È un percorso fatto di intuizioni e scelte delicate, dove estetica e funzionalità si fondono in un equilibrio perfetto.\n\nCon la mia esperienza e visione, mi occupo di tradurre sogni in realtà abitative su misura, curate in ogni dettaglio per rispondere alle esigenze e ai desideri di chi le vive.",
+     "buttonLabel": "Scopri di più",
+     "buttonLink": "/chi-sono",
+     "image": "@2025/03/1.jpg"
+    },
+    {
+     "blockType": "steps",
+     "heading": "Un percorso di progettazione su misura",
+     "items": [
+      {
+       "title": "Visione e Analisi",
+       "text": "Ogni progetto inizia con un’analisi approfondita del contesto e dei bisogni del cliente. La luce, i flussi, l’ergonomia degli spazi: ogni elemento viene studiato per creare un ambiente armonioso e funzionale."
+      },
+      {
+       "title": "Rendering e Visualizzazione",
+       "text": "Attraverso rappresentazioni virtuali dettagliate, ogni idea prende vita prima ancora di essere realizzata. Il cliente può così immergersi nel proprio futuro spazio e apportare modifiche in fase di progettazione."
+      },
+      {
+       "title": "Selezione Materiali",
+       "text": "La scelta dei materiali è un atto di cura e precisione: ogni superficie, tessuto e finitura racconta una storia. Un equilibrio tra tradizione e innovazione, lusso e semplicità, natura e design."
+      },
+      {
+       "title": "Direzione Lavori",
+       "text": "Monitoro ogni fase della realizzazione in cantiere, coordinando i professionisti e gestendo ogni dettaglio per garantire che il risultato finale sia fedele alla visione originale."
+      }
+     ],
+     "imageA": "@2026/10/foto-01-copia.jpg.jpeg"
+    },
+    {
+     "blockType": "features",
+     "heading": "Perché scegliere un progetto chiavi in mano?",
+     "items": [
+      {
+       "title": "Personalizzazione totale",
+       "text": "Ogni spazio è studiato nei minimi dettagli per rispecchiare la tua personalità e le tue esigenze.\n\nNon solo estetica, ma funzionalità e comfort pensati per migliorare la tua quotidianità."
+      },
+      {
+       "title": "Zero Stress",
+       "text": "**Soluzione senza pensieri**: Mi occupo di tutto, dalla progettazione alla consegna finale, eliminando ogni preoccupazione."
+      },
+      {
+       "title": "Qualità e attenzione ai dettagli",
+       "text": "Seleziono con attenzione materiali e finiture per garantire un risultato impeccabile e duraturo."
+      },
+      {
+       "title": "Un risultato garantito",
+       "text": "La mia esperienza e il mio approccio metodico assicurano un ambiente perfetto sotto ogni punto di vista."
+      }
+     ],
+     "image": "@2026/10/IMG_0179.jpeg"
+    },
+    {
+     "blockType": "cta",
+     "eyebrow": "Libera le idee",
+     "heading": "Scopri come trasformare il tuo spazio",
+     "text": "Ogni progetto è un’opera d’arte in continua evoluzione. Se desideri un ambiente che parli di te, che unisca bellezza e funzionalità, sono qui per accompagnarti in questo viaggio.",
+     "buttonLabel": "Contattami per una consulenza",
+     "buttonLink": "/contatti",
+     "image": "@2026/10/Q.jpg"
+    },
+    {
+     "blockType": "projectsGrid",
+     "eyebrow": "Come lavoro",
+     "heading": "Progetti e interventi",
+     "limit": 9,
+     "buttonLabel": "Tutti i progetti",
+     "buttonLink": "/progetti"
+    },
+    {
+     "blockType": "about",
+     "eyebrow": "Chi Sono",
+     "heading": "Conosciamoci meglio",
+     "badges": [
+      {
+       "label": "Esperienza"
+      },
+      {
+       "label": "Qualità"
+      },
+      {
+       "label": "Recensioni"
+      }
+     ],
+     "text": "Sono Eleonora Righi, architetto d’interni con oltre dieci anni di esperienza nella progettazione di spazi unici e personalizzati. Conosco profondamente il territorio, i migliori fornitori e i marchi di eccellenza, elementi che mi permettono di realizzare ambienti esclusivi e curati in ogni dettaglio. Grazie alla mia sensibilità estetica e alla mia capacità di abbinare idee e scelte di arredo, riesco a trasformare ogni spazio in un luogo che racconta una storia e rispecchia la personalità di chi lo vive.\n\nOgni progetto è realizzato con materiali di prima qualità, selezionati con cura per garantire bellezza e durata nel tempo. La mia attenzione ai dettagli si riflette in ogni fase, dalla progettazione alla gestione del cantiere, assicurandomi che ogni finitura sia impeccabile e che ogni scelta rispetti gli standard più elevati di estetica e funzionalità.\n\nI miei clienti apprezzano non solo il risultato finale dei loro spazi, ma anche l’intero percorso di progettazione e realizzazione. Mi riconoscono una grande capacità di ascolto, attenzione ai dettagli e una visione chiara che trasforma le loro idee in realtà. Affidarsi a me significa avere la sicurezza di un progetto seguito con passione, precisione e dedizione.",
+     "image": "@2025/04/X9A1300-Modifica.jpg",
+     "buttonLabel": "Chi sono",
+     "buttonLink": "/chi-sono"
+    }
+   ],
+   "seo": {
+    "title": "Eleonora Righi — Architetto d’interni a Carpi | Progettazione chiavi in mano",
+    "description": "Eleonora Righi, architetto d’interni a Carpi (MO): progettazione chiavi in mano, rendering, selezione materiali e direzione lavori per spazi unici e personalizzati."
+   }
+  },
+  {
+   "slug": "chi-sono",
+   "title": "Chi Sono",
+   "layout": [
+    {
+     "blockType": "about",
+     "eyebrow": "Chi sono e cosa faccio",
+     "heading": "Eleonora Righi, architetto d’interni",
+     "text": "Sono Eleonora Righi, architetto d’interni con oltre dieci anni di esperienza nella progettazione di spazi unici e personalizzati.\n\nConosco profondamente il territorio, i migliori fornitori e i marchi di eccellenza, elementi che mi permettono di realizzare ambienti esclusivi e curati in ogni dettaglio. Grazie alla mia sensibilità estetica e alla mia capacità di abbinare idee e scelte di arredo, riesco a trasformare ogni spazio in un luogo che racconta una storia e rispecchia la personalità di chi lo vive.\n\nAffidarsi a me significa avere la sicurezza di un progetto seguito con passione, precisione e dedizione.\n\nOgni progetto è realizzato con materiali di prima qualità, selezionati con cura per garantire bellezza e durata nel tempo. La mia attenzione ai dettagli si riflette in ogni fase, dalla progettazione alla gestione del cantiere, assicurandomi che ogni finitura sia impeccabile e che ogni scelta rispetti gli standard più elevati di estetica e funzionalità.\n\nI miei clienti apprezzano non solo il risultato finale dei loro spazi, ma anche l’intero percorso di progettazione e realizzazione. Mi riconoscono una grande capacità di ascolto, attenzione ai dettagli e una visione chiara che trasforma le loro idee in realtà.",
+     "image": "@2026/10/ele.jpg"
+    },
+    {
+     "blockType": "projectsGrid",
+     "eyebrow": "Progetti",
+     "heading": "Guarda gli interventi",
+     "intro": "Guarda le cose che ho realizzato.",
+     "limit": 3,
+     "buttonLabel": "Progetti",
+     "buttonLink": "/progetti"
+    },
+    {
+     "blockType": "features",
+     "heading": "Perché scegliere un progetto chiavi in mano?",
+     "items": [
+      {
+       "title": "Personalizzazione totale",
+       "text": "Ogni spazio è studiato nei minimi dettagli per rispecchiare la tua personalità e le tue esigenze.\n\nNon solo estetica, ma funzionalità e comfort pensati per migliorare la tua quotidianità."
+      },
+      {
+       "title": "Zero Stress",
+       "text": "**Soluzione senza pensieri**: Mi occupo di tutto, dalla progettazione alla consegna finale, eliminando ogni preoccupazione."
+      },
+      {
+       "title": "Qualità e attenzione ai dettagli",
+       "text": "Seleziono con attenzione materiali e finiture per garantire un risultato impeccabile e duraturo."
+      },
+      {
+       "title": "Un risultato garantito",
+       "text": "La mia esperienza e il mio approccio metodico assicurano un ambiente perfetto sotto ogni punto di vista."
+      }
+     ],
+     "image": "@2025/04/02.jpg"
+    },
+    {
+     "blockType": "cta",
+     "heading": "Ti piace questo stile?",
+     "text": "Se vuoi arredare i tuoi spazi e vuoi progettarli insieme a me, contattami ora.",
+     "buttonLabel": "Contatti",
+     "buttonLink": "/contatti",
+     "image": "@2026/10/Q.jpg"
+    }
+   ],
+   "seo": {
+    "title": "Chi sono — Eleonora Righi, architetto d’interni a Carpi",
+    "description": "Architetto d’interni con oltre dieci anni di esperienza: progetti su misura, selezione di materiali e direzione lavori a Carpi e in tutta la regione."
+   }
+  },
+  {
+   "slug": "progetti",
+   "title": "Progetti",
+   "layout": [
+    {
+     "blockType": "projectsGrid",
+     "heading": "Progetti",
+     "intro": "Scopri come lavoro attraverso i miei interventi e progetti"
+    }
+   ],
+   "seo": {
+    "title": "Progetti e interventi — Eleonora Righi",
+    "description": "Ville, attici, appartamenti e spazi commerciali: i progetti di interior design di Eleonora Righi, architetto d’interni a Carpi."
+   }
+  },
+  {
+   "slug": "contatti",
+   "title": "Contatti",
+   "layout": [
+    {
+     "blockType": "contactInfo",
+     "heading": "Contattami",
+     "intro": "Usa i recapiti che trovi in questa pagina per contattarmi. Sono di base a Carpi (MO) e lavoro in tutta la regione.\n\nSu richiesta posso spostarmi in tutta Italia.",
+     "note": "Si riceve solo su appuntamento.",
+     "image": "@2025/04/BMW4748.jpg"
+    }
+   ],
+   "seo": {
+    "title": "Contatti — Eleonora Righi, architetto a Carpi",
+    "description": "Piazzale Bertesi 8/A, Carpi (MO). Si riceve solo su appuntamento. Tel. 333 213 2900."
+   }
+  }
+ ],
+ "projects": [
+  {
+   "slug": "appartamento-mr-contrasti-vivi-materia-ritmo-e-carattere-in-uno-spazio-giovane",
+   "title": "Appartamento MR – contrasti vivi: materia, ritmo e carattere in uno spazio giovane",
+   "order": 140,
+   "categories": [],
+   "cover": "2025/05/01-1.jpg",
+   "gallery": [
+    "2025/05/01-1.jpg",
+    "2025/05/02-1.jpg",
+    "2025/05/03-1.jpg",
+    "2025/05/04.jpg",
+    "2025/05/05.jpg",
+    "2025/05/06.jpg",
+    "2025/05/07.jpg",
+    "2025/05/08.jpg",
+    "2025/05/09.jpg",
+    "2025/05/10.jpg",
+    "2025/05/11.jpg",
+    "2025/05/12.jpg",
+    "2025/05/13.jpg",
+    "2025/05/14.jpg"
+   ],
+   "body": "Un appartamento giovane e dinamico, dove ogni angolo racconta una storia di <strong>stile e personalità</strong>. Le superfici chiare e i materiali naturali creano un ambiente luminoso e accogliente, mentre i dettagli ricercati aggiungono carattere e originalità. Il design essenziale e funzionale valorizza ogni spazio, offrendo un equilibrio perfetto tra estetica e praticità. Un <strong>rifugio contemporaneo</strong> pensato per chi cerca un <strong>ambiente che rispecchi la propria identità e il proprio stile di vita</strong>.",
+   "seo": {
+    "title": "Appartamento MR – contrasti vivi: materia, ritmo e carattere in uno spazio giovane — Eleonora Righi"
+   }
+  },
+  {
+   "slug": "attico-eco-m",
+   "title": "Attico ECO-M",
+   "order": 90,
+   "categories": [
+    "arredo"
+   ],
+   "cover": "2025/05/VISTA-09-3.jpg",
+   "gallery": [
+    "2025/05/VISTA-01-4.jpg",
+    "2025/05/VISTA-02-4.jpg",
+    "2025/05/VISTA-03-4.jpg",
+    "2025/05/VISTA-04-2.jpg",
+    "2025/05/VISTA-05-5.jpg",
+    "2025/05/VISTA-06-5.jpg",
+    "2025/05/VISTA-07-3.jpg",
+    "2025/05/VISTA-08-3.jpg",
+    "2025/05/VISTA-09-3.jpg",
+    "2025/05/VISTA-10-3.jpg",
+    "2025/05/VISTA-11.jpg"
+   ],
+   "body": "Luce naturale che riempie gli ambienti grazie alle ampie finestre e alle superfici chiare. Il legno del pavimento crea un contrasto caldo e autentico con le pareti bianche. Gli spazi sono essenziali, luminosi e ariosi, con un design minimal che valorizza i materiali naturali e la funzionalità.",
+   "seo": {
+    "title": "Attico ECO-M — Eleonora Righi"
+   }
+  },
+  {
+   "slug": "attico-mm-eleganza-sospesa-tra-passato-e-presente",
+   "title": "Attico MM – Eleganza sospesa tra passato e presente",
+   "order": 20,
+   "categories": [
+    "arredo"
+   ],
+   "cover": "2025/04/X9A1171.jpg",
+   "gallery": [
+    "2025/04/X9A1171.jpg",
+    "2025/04/X9A1198.jpg",
+    "2025/04/X9A1214.jpg",
+    "2025/04/X9A1225.jpg",
+    "2025/04/X9A1240.jpg",
+    "2025/04/X9A1257.jpg",
+    "2025/04/X9A1295-1.jpg",
+    "2025/04/X9A1300-Modifica.jpg",
+    "2025/04/X9A1315-Modifica.jpg",
+    "2025/04/X9A1321-Modifica.jpg",
+    "2025/04/X9A1324-Modifica-2.jpg",
+    "2025/04/X9A1330.jpg",
+    "2025/04/X9A1361-Modifica-2.jpg",
+    "2025/04/X9A1373.jpg",
+    "2025/04/X9A1387.jpg",
+    "2025/04/X9A1451-Modifica-2.jpg",
+    "2025/04/X9A1471-Modifica.jpg",
+    "2025/04/X9A1476-Modifica.jpg",
+    "2025/04/X9A1484.jpg"
+   ],
+   "body": "Un attico che parla il linguaggio dell’armonia: qui <strong>la tradizione si intreccia con il design moderno</strong>, <strong>in un equilibrio perfetto tra memoria e innovazione</strong>. I soffitti con travi a vista bianchi aprono lo sguardo alla luce naturale, che avvolge ogni dettaglio, dal tavolo in legno intarsiato alle poltrone di design dal gusto minimale. La zona giorno si trasforma così in un salotto senza tempo, dove ogni elemento dialoga con lo spazio e racconta una visione di casa che va oltre il concetto di abitare.\n\n<strong>Non è solo uno spazio: è un racconto di stile.</strong>",
+   "seo": {
+    "title": "Attico MM - Eleganza sospesa tra passato e presente — Eleonora Righi"
+   }
+  },
+  {
+   "slug": "attico-tt-linee-di-contemporaneita",
+   "title": "Attico TT – Linee di Contemporaneita",
+   "order": 100,
+   "categories": [
+    "render"
+   ],
+   "cover": "2025/05/03.jpg",
+   "gallery": [
+    "2025/05/01.jpg",
+    "2025/05/02.jpg",
+    "2025/05/03.jpg"
+   ],
+   "body": "Spazi ampi e luminosi, dove la luce naturale inonda ogni angolo grazie alle ampie vetrate. Le superfici chiare e i materiali naturali creano un ambiente accogliente e rilassante. Il design minimalista e funzionale valorizza ogni dettaglio, offrendo un’atmosfera di contemporaneità e comfort.<br>",
+   "seo": {
+    "title": "Attico TT - Linee di Contemporaneita — Eleonora Righi"
+   }
+  },
+  {
+   "slug": "attico-tt-linee-essenziali-e-colori-della-terra-quando-la-progettazione-incontra-la-me-moria",
+   "title": "Attico TT – Linee essenziali e colori della terra, quando la progettazione incontra la me-moria.",
+   "order": 80,
+   "categories": [
+    "arredo"
+   ],
+   "cover": "2025/04/BMW4700.jpg",
+   "gallery": [
+    "2025/04/BMW4750.jpg",
+    "2025/04/BMW4748.jpg",
+    "2025/04/BMW4722.jpg",
+    "2025/04/BMW4715.jpg",
+    "2025/04/BMW4712.jpg",
+    "2025/04/BMW4710.jpg",
+    "2025/04/BMW4700.jpg",
+    "2025/04/BMW4686.jpg",
+    "2025/04/BMW4680-TAGLIATA.jpg"
+   ],
+   "body": "Un ambiente dove la luce naturale si fonde con tonalità terrose, creando un’atmosfera calda e accogliente. Le linee essenziali degli arredi e le superfici chiare amplificano la sensazione di spazio e luminosità. Ogni elemento sembra pensato per favorire la serenità e la funzionalità, offrendo un rifugio contemporaneo dove ogni dettaglio racconta una storia di equilibrio e armonia.",
+   "seo": {
+    "title": "Attico TT - Linee essenziali e colori della terra, quando la progettazione incontra la me-moria. — Eleonora Righi"
+   }
+  },
+  {
+   "slug": "attico-tt-quando-il-progetto-diventa-equilibrio-di-forme-luce-e-materiali",
+   "title": "Attico TT – Quando il progetto diventa equilibrio di forme, luce e materiali",
+   "order": 130,
+   "categories": [
+    "render"
+   ],
+   "cover": "2025/05/VISTA-07-2.jpg",
+   "gallery": [
+    "2025/05/VISTA-01-2.jpg",
+    "2025/05/VISTA-02-2.jpg",
+    "2025/05/VISTA-03-2.jpg",
+    "2025/05/VISTA-04.jpg",
+    "2025/05/VISTA-05-2.jpg",
+    "2025/05/VISTA-06-2.jpg",
+    "2025/05/VISTA-07-2.jpg",
+    "2025/05/VISTA-08-2.jpg",
+    "2025/05/VISTA-09-2.jpg",
+    "2025/05/VISTA-10-2.jpg"
+   ],
+   "body": "Un rifugio urbano dove la lu<strong>ce naturale danza sulle superfici chiare,</strong> creando un’atmosfera di calma e luminosità. Le linee essenziali degli arredi e la disposizione aperta degli spazi favoriscono un flusso armonioso, mentre i <strong>materiali naturali aggiungono calore e autenticità</strong>. Ogni angolo invita alla contemplazione e al relax, offrendo un ambiente contemporaneo pensato per il benessere quotidiano.",
+   "seo": {
+    "title": "Attico TT - Quando il progetto diventa equilibrio di forme, luce e materiali — Eleonora Righi"
+   }
+  },
+  {
+   "slug": "centro-estetico",
+   "title": "Centro Estetico – La luce che riscalda, il design che rasserena",
+   "order": 60,
+   "categories": [
+    "arredo",
+    "commerciale",
+    "ristrutturazioni"
+   ],
+   "cover": "2025/07/63A4805.jpg",
+   "gallery": [
+    "2025/07/63A4795.jpg",
+    "2025/07/63A4805.jpg",
+    "2025/07/63A4807.jpg",
+    "2025/07/63A4856.jpg",
+    "2025/07/63A4870.jpg",
+    "2025/07/63A4875.jpg",
+    "2025/07/63A4876.jpg",
+    "2025/07/63A4898.jpg",
+    "2025/07/63A4911.jpg",
+    "2025/07/63A4917.jpg",
+    "2025/07/63A4943.jpg"
+   ],
+   "body": "Linee morbide, luci soffuse e materiali naturali creano un’atmosfera accogliente e rilassante. Gli arredi su misura e le finiture curate trasformano ogni ambiente in uno spazio armonioso e funzionale. Il design punta su tonalità neutre, giochi di luce e texture leggere per accompagnare il cliente in un’esperienza sensoriale equilibrata. Ogni dettaglio è pensato per trasmettere calma, ordine ed eleganza.",
+   "seo": {
+    "title": "Centro Estetico - La luce che riscalda, il design che rasserena — Eleonora Righi"
+   }
+  },
+  {
+   "slug": "centro-medico",
+   "title": "Centro Medico – il fascino dell’invisibile",
+   "order": 40,
+   "categories": [
+    "arredo"
+   ],
+   "cover": "2025/05/03-2.jpg",
+   "gallery": [
+    "2025/05/01-2.jpg",
+    "2025/05/02-2.jpg",
+    "2025/05/03-2.jpg",
+    "2025/05/04-1.jpg",
+    "2025/05/05-1.jpg",
+    "2025/05/06-1.jpg",
+    "2025/05/07-1.jpg",
+    "2025/05/08-1.jpg",
+    "2025/05/09-1.jpg",
+    "2025/05/10-1.jpg",
+    "2025/05/11-1.jpg",
+    "2025/05/12-1.jpg",
+    "2025/05/13-1.jpg",
+    "2025/05/14-1.jpg"
+   ],
+   "body": "Gli spazi sono luminosi e ordinati, con pareti e arredi chiari che amplificano la luce naturale. Il design è moderno, pulito e funzionale, con materiali semplici e linee essenziali che favoriscono un’atmosfera calma e professionale con una disposizione che facilita il flusso e l’accessibilità.",
+   "seo": {
+    "title": "Centro Medico - il fascino dell'invisibile — Eleonora Righi"
+   }
+  },
+  {
+   "slug": "dove-il-design-incontra-la-luce-un-rifugio-tra-cielo-e-mare",
+   "title": "Appartamento CP – Dove il design incontra la luce: un rifugio tra cielo e mare",
+   "order": 30,
+   "categories": [
+    "arredo"
+   ],
+   "cover": "2025/04/A74I4977-Modifica-Modifica.jpg",
+   "gallery": [
+    "2025/04/A74I4897.jpg",
+    "2025/04/A74I4903.jpg",
+    "2025/04/A74I4929.jpg",
+    "2025/04/A74I4930.jpg",
+    "2025/04/A74I4934.jpg",
+    "2025/04/A74I4950-Modifica.jpg",
+    "2025/04/A74I4954-Modifica.jpg",
+    "2025/04/A74I4956-Modifica.jpg",
+    "2025/04/A74I4962-1.jpg",
+    "2025/04/A74I4977-Modifica-Modifica.jpg",
+    "2025/04/A74I5039-Modifica.jpg",
+    "2025/04/A74I5044-Modifica.jpg",
+    "2025/04/A74I5072-Modifica.jpg",
+    "2025/04/A74I5086-Modifica.jpg"
+   ],
+   "body": "Le sfumature azzurre che danzano sulle pareti ricordano il <strong>lento movimento delle onde,</strong> mentre i contrasti materici e le linee essenziali disegnano uno spazio che invita a <strong>respirare bellezza</strong>. La luce naturale attraversa la zona giorno incontrando <strong>arredi sospesi</strong>, <strong>nicchie retroilluminate e geometrie pulite</strong>: un <strong>equilibrio perfetto tra funzionalità e ispirazione</strong>.\n\nPiù che una casa, un’esperienza sensoriale pensata per chi sa riconoscere l’armonia dei luoghi in cui vivere davvero.",
+   "seo": {
+    "title": "Appartamento CP - Dove il design incontra la luce: un rifugio tra cielo e mare — Eleonora Righi"
+   }
+  },
+  {
+   "slug": "eleganza-sospesa-tra-dettagli-sartoriali-e-atmosfere",
+   "title": "Appartamento GL – Eleganza sospesa tra dettagli sartoriali e atmosfere",
+   "order": 150,
+   "categories": [
+    "render"
+   ],
+   "cover": "2025/05/VISTA-09-1.jpg",
+   "gallery": [
+    "2025/05/VISTA-01-1.jpg",
+    "2025/05/VISTA-02-1.jpg",
+    "2025/05/VISTA-03-1.jpg",
+    "2025/05/VISTA-05-1.jpg",
+    "2025/05/VISTA-06-1.jpg",
+    "2025/05/VISTA-07-1.jpg",
+    "2025/05/VISTA-08-1.jpg",
+    "2025/05/VISTA-09-1.jpg",
+    "2025/05/VISTA-10-1.jpg"
+   ],
+   "body": "Un ambiente dove <strong>l’eleganza si fa sottile e avvolgente</strong>, tra dettagli <strong>sartoriali</strong> e atmosfere sospese. Le linee pulite degli arredi si intrecciano con materiali ricercati, creando un equilibrio perfetto tra forma e sostanza. Ogni spazio racconta una storia di raffinatezza e discrezione, dove <strong>ogni elemento è pensato per valorizzare l’insieme senza mai sovrastarlo.</strong> Un rifugio contemporaneo che celebra la bellezza nei suoi dettagli più intimi.",
+   "seo": {
+    "title": "Appartamento GL - Eleganza sospesa tra dettagli sartoriali e atmosfere — Eleonora Righi"
+   }
+  },
+  {
+   "slug": "maisonette-tf-intimita-ricercata-atmosfere-delicate-e-volumi-sartoriali",
+   "title": "Maisonette TF – Intimità ricercata: atmosfere delicate e volumi sartoriali",
+   "order": 110,
+   "categories": [
+    "arredo"
+   ],
+   "cover": "2025/05/VISTA-02-3.jpg",
+   "gallery": [
+    "2025/05/VISTA-01-3.jpg",
+    "2025/05/VISTA-02-3.jpg",
+    "2025/05/VISTA-03-3.jpg",
+    "2025/05/VISTA-05-4.jpg",
+    "2025/05/VISTA-06-4.jpg"
+   ],
+   "body": "Testo",
+   "seo": {
+    "title": "Maisonette TF - Intimità ricercata: atmosfere delicate e volumi sartoriali — Eleonora Righi"
+   }
+  },
+  {
+   "slug": "villa-mz-dentita-e-stile-contemporaneo-una-ristrutturazione-che-dona-nuova-vita-agli-spazi",
+   "title": "Villa MZ – dentita e stile contemporaneo. Una ristrutturazione che dona nuova vita agli spazi",
+   "order": 120,
+   "categories": [
+    "render"
+   ],
+   "cover": "2025/05/005.jpg",
+   "gallery": [
+    "2025/05/001.jpg",
+    "2025/05/002.jpg",
+    "2025/05/003.jpg",
+    "2025/05/004.jpg",
+    "2025/05/005.jpg",
+    "2025/05/006.jpg",
+    "2025/05/007.jpg",
+    "2025/05/008.jpg",
+    "2025/05/38.jpg",
+    "2025/05/39.jpg"
+   ],
+   "body": "Un progetto che celebra la trasformazione: <strong>spazi che raccontano una nuova identità attraverso scelte materiche e cromatiche raffinate</strong>. Il dialogo tra elementi classici e contemporanei restituisce un <strong>ambiente elegante e accogliente</strong>, dove ogni dettaglio è pensato per valorizzare la <strong>funzionalità senza rinunciare allo stile</strong>. Un equilibrio perfetto tra passato e presente, dove la ristrutturazione dona nuova vita agli spazi, creando un’atmosfera unica e senza tempo.",
+   "seo": {
+    "title": "Villa MZ - dentita e stile contemporaneo. Una ristrutturazione che dona nuova vita agli spazi — Eleonora Righi"
+   }
+  },
+  {
+   "slug": "villetta-dr-armonie-cromatiche-un-viaggio-tra-accenti-decisi-e-toni-brillanti",
+   "title": "Villetta DR – Armonie cromatiche: un viaggio tra accenti decisi e toni brillanti",
+   "order": 50,
+   "categories": [
+    "arredo"
+   ],
+   "cover": "2025/04/A74I9610-Modifica.jpg",
+   "gallery": [
+    "2025/04/A74I9610-Modifica.jpg",
+    "2025/04/A74I9767-Modifica.jpg",
+    "2025/04/A74I9754-Modifica.jpg",
+    "2025/04/A74I9735-Modifica.jpg",
+    "2025/04/A74I9724-Modifica.jpg",
+    "2025/04/A74I9722-Modifica.jpg",
+    "2025/04/A74I9718-Modifica.jpg",
+    "2025/04/A74I9715-Modifica.jpg",
+    "2025/04/A74I9706-Modifica.jpg",
+    "2025/04/A74I9697-Modifica.jpg",
+    "2025/04/A74I9636.jpg",
+    "2025/04/A74I9627-Modifica.jpg"
+   ],
+   "body": "Un gioco di contrasti tra toni brillanti e accenti decisi, dove <strong>ogni colore trova il suo posto in un equilibrio perfetto</strong>. Le superfici chiare amplificano la luce naturale, creando un ambiente luminoso e accogliente. Gli arredi, dalle linee essenziali e dai materiali naturali, aggiungono calore e autenticità, mentre i dettagli cromatici conferiscono personalità e carattere agli spazi. Ogni angolo racconta una storia di stile e funzionalità, offrendo <strong>un rifugio contemporaneo pensato per il benessere quotidiano</strong>.",
+   "seo": {
+    "title": "Villetta DR - Armonie cromatiche: un viaggio tra accenti decisi e toni brillanti — Eleonora Righi"
+   }
+  },
+  {
+   "slug": "villetta-rc-luce-linee-e-leggerezza-un-rifugio-contemporaneo-nel-verde",
+   "title": "Villetta RC Luce, Linee e Leggerezza: un Rifugio Contemporaneo nel Verde",
+   "order": 70,
+   "categories": [
+    "arredo"
+   ],
+   "cover": "2025/04/01.jpg",
+   "gallery": [
+    "2025/04/13.jpg",
+    "2025/04/12.jpg",
+    "2025/04/11.jpg",
+    "2025/04/10.jpg",
+    "2025/04/09.jpg",
+    "2025/04/08-1.jpg",
+    "2025/04/06.jpg",
+    "2025/04/05-1.jpg",
+    "2025/04/04.jpg",
+    "2025/04/03.jpg",
+    "2025/04/02-1.jpg",
+    "2025/04/01.jpg"
+   ],
+   "body": "Una sintesi perfetta tra estetica e funzionalità, pensata per vivere ogni giorno con stile.\n\nGli interni, giocati su <strong>tonalità naturali e materiali materici</strong>, dialogano armoniosamente con la <strong>luce naturale </strong>che attraversa l’ambiente, amplificata da scelte architettoniche che valorizzano ogni volume. Il <strong>controsoffitto con travi a vista in legno sbiancato</strong> si fonde con le linee pulite dell’arredo su misura, dando vita a uno spazio accogliente, funzionale e senza tempo.\n\nNel cuore di un contesto residenziale tranquillo, questa villetta privata incarna l’equilibrio tra <strong>comfort moderno e design minimale</strong>.",
+   "seo": {
+    "title": "Villetta RC Luce, Linee e Leggerezza: un Rifugio Contemporaneo nel Verde — Eleonora Righi"
+   }
+  },
+  {
+   "slug": "villetta-ss-armonia-e-design-quando-ogni-dettaglio-racconta-una-storia",
+   "title": "Villetta SS – Armonia e design, quando ogni dettaglio racconta una storia",
+   "order": 10,
+   "categories": [
+    "render"
+   ],
+   "cover": "2025/04/A74I2176.jpg",
+   "gallery": [
+    "2025/04/A74I2074-Modifica.jpg",
+    "2025/04/A74I2082.jpg",
+    "2025/04/A74I2116.jpg",
+    "2025/04/A74I2159.jpg",
+    "2025/04/A74I2172.jpg",
+    "2025/04/A74I2176.jpg",
+    "2025/04/A74I2190.jpg",
+    "2025/04/A74I2204.jpg",
+    "2025/04/A74I2211.jpg",
+    "2025/04/A74I2218.jpg",
+    "2025/04/A74I2259.jpg",
+    "2025/04/A74I2262.jpg",
+    "2025/04/A74I2271.jpg",
+    "2025/04/A74I2289.jpg",
+    "2025/04/A74I2292.jpg",
+    "2025/04/A74I2304-Modifica.jpg",
+    "2025/04/A74I2306.jpg",
+    "2025/04/A74I2318.jpg",
+    "2025/04/A74I2342.jpg",
+    "2025/04/A74I2349.jpg",
+    "2025/04/A74I2372.jpg",
+    "2025/04/A74I2377-Modifica.jpg",
+    "2025/04/A74I2395.jpg",
+    "2025/04/A74I2400.jpg",
+    "2025/04/A74I2431.jpg"
+   ],
+   "body": "Una casa che <strong>racconta la sua storia attraverso ogni angolo</strong>, dove ogni elemento è scelto con cura per evocare emozioni e ricordi. L’ingresso accoglie con un’atmosfera calda e raffinata, grazie ai <strong>toni neutri e ai materiali naturali che caratterizzano gli spazi</strong>. Il soggiorno, con la sua disposizione aperta e luminosa, invita alla conversazione e al relax, mentre la zona pranzo diventa il cuore pulsante della casa, ideale per condividere momenti speciali con la famiglia e gli amici. Le camere da letto offrono un rifugio intimo e tranquillo, dove il design semplice e funzionale favorisce il riposo e il benessere. Ogni dettaglio, dai tessuti alle finiture, è pensato per creare un ambiente armonioso e accogliente, dove il <strong>passato e il presente si incontrano in un equilibrio perfetto.<br></strong>",
+   "seo": {
+    "title": "Villetta SS - Armonia e design, quando ogni dettaglio racconta una storia — Eleonora Righi"
+   }
+  }
+ ],
+ "media": [
+  "2025/03/1.jpg",
+  "2025/04/01.jpg",
+  "2025/04/02-1.jpg",
+  "2025/04/02.jpg",
+  "2025/04/03.jpg",
+  "2025/04/04.jpg",
+  "2025/04/05-1.jpg",
+  "2025/04/06.jpg",
+  "2025/04/08-1.jpg",
+  "2025/04/09.jpg",
+  "2025/04/10.jpg",
+  "2025/04/11.jpg",
+  "2025/04/12.jpg",
+  "2025/04/13.jpg",
+  "2025/04/A74I2074-Modifica.jpg",
+  "2025/04/A74I2082.jpg",
+  "2025/04/A74I2116.jpg",
+  "2025/04/A74I2159.jpg",
+  "2025/04/A74I2172.jpg",
+  "2025/04/A74I2176.jpg",
+  "2025/04/A74I2190.jpg",
+  "2025/04/A74I2204.jpg",
+  "2025/04/A74I2211.jpg",
+  "2025/04/A74I2218.jpg",
+  "2025/04/A74I2259.jpg",
+  "2025/04/A74I2262.jpg",
+  "2025/04/A74I2271.jpg",
+  "2025/04/A74I2289.jpg",
+  "2025/04/A74I2292.jpg",
+  "2025/04/A74I2304-Modifica.jpg",
+  "2025/04/A74I2306.jpg",
+  "2025/04/A74I2318.jpg",
+  "2025/04/A74I2342.jpg",
+  "2025/04/A74I2349.jpg",
+  "2025/04/A74I2372.jpg",
+  "2025/04/A74I2377-Modifica.jpg",
+  "2025/04/A74I2395.jpg",
+  "2025/04/A74I2400.jpg",
+  "2025/04/A74I2431.jpg",
+  "2025/04/A74I4897.jpg",
+  "2025/04/A74I4903.jpg",
+  "2025/04/A74I4929.jpg",
+  "2025/04/A74I4930.jpg",
+  "2025/04/A74I4934.jpg",
+  "2025/04/A74I4950-Modifica.jpg",
+  "2025/04/A74I4954-Modifica.jpg",
+  "2025/04/A74I4956-Modifica.jpg",
+  "2025/04/A74I4962-1.jpg",
+  "2025/04/A74I4977-Modifica-Modifica.jpg",
+  "2025/04/A74I5039-Modifica.jpg",
+  "2025/04/A74I5044-Modifica.jpg",
+  "2025/04/A74I5072-Modifica.jpg",
+  "2025/04/A74I5086-Modifica.jpg",
+  "2025/04/A74I9610-Modifica.jpg",
+  "2025/04/A74I9627-Modifica.jpg",
+  "2025/04/A74I9636.jpg",
+  "2025/04/A74I9697-Modifica.jpg",
+  "2025/04/A74I9706-Modifica.jpg",
+  "2025/04/A74I9715-Modifica.jpg",
+  "2025/04/A74I9718-Modifica.jpg",
+  "2025/04/A74I9722-Modifica.jpg",
+  "2025/04/A74I9724-Modifica.jpg",
+  "2025/04/A74I9735-Modifica.jpg",
+  "2025/04/A74I9754-Modifica.jpg",
+  "2025/04/A74I9767-Modifica.jpg",
+  "2025/04/BMW4680-TAGLIATA.jpg",
+  "2025/04/BMW4686.jpg",
+  "2025/04/BMW4700.jpg",
+  "2025/04/BMW4710.jpg",
+  "2025/04/BMW4712.jpg",
+  "2025/04/BMW4715.jpg",
+  "2025/04/BMW4722.jpg",
+  "2025/04/BMW4748.jpg",
+  "2025/04/BMW4750.jpg",
+  "2025/04/X9A1171.jpg",
+  "2025/04/X9A1198.jpg",
+  "2025/04/X9A1214.jpg",
+  "2025/04/X9A1225.jpg",
+  "2025/04/X9A1240.jpg",
+  "2025/04/X9A1257.jpg",
+  "2025/04/X9A1295-1.jpg",
+  "2025/04/X9A1300-Modifica.jpg",
+  "2025/04/X9A1315-Modifica.jpg",
+  "2025/04/X9A1321-Modifica.jpg",
+  "2025/04/X9A1324-Modifica-2.jpg",
+  "2025/04/X9A1330.jpg",
+  "2025/04/X9A1361-Modifica-2.jpg",
+  "2025/04/X9A1373.jpg",
+  "2025/04/X9A1387.jpg",
+  "2025/04/X9A1451-Modifica-2.jpg",
+  "2025/04/X9A1471-Modifica.jpg",
+  "2025/04/X9A1476-Modifica.jpg",
+  "2025/04/X9A1484.jpg",
+  "2025/05/001.jpg",
+  "2025/05/002.jpg",
+  "2025/05/003.jpg",
+  "2025/05/004.jpg",
+  "2025/05/005.jpg",
+  "2025/05/006.jpg",
+  "2025/05/007.jpg",
+  "2025/05/008.jpg",
+  "2025/05/01-1.jpg",
+  "2025/05/01-2.jpg",
+  "2025/05/01.jpg",
+  "2025/05/02-1.jpg",
+  "2025/05/02-2.jpg",
+  "2025/05/02.jpg",
+  "2025/05/03-1.jpg",
+  "2025/05/03-2.jpg",
+  "2025/05/03.jpg",
+  "2025/05/04-1.jpg",
+  "2025/05/04.jpg",
+  "2025/05/05-1.jpg",
+  "2025/05/05.jpg",
+  "2025/05/06-1.jpg",
+  "2025/05/06.jpg",
+  "2025/05/07-1.jpg",
+  "2025/05/07.jpg",
+  "2025/05/08-1.jpg",
+  "2025/05/08.jpg",
+  "2025/05/09-1.jpg",
+  "2025/05/09.jpg",
+  "2025/05/10-1.jpg",
+  "2025/05/10.jpg",
+  "2025/05/11-1.jpg",
+  "2025/05/11.jpg",
+  "2025/05/12-1.jpg",
+  "2025/05/12.jpg",
+  "2025/05/13-1.jpg",
+  "2025/05/13.jpg",
+  "2025/05/14-1.jpg",
+  "2025/05/14.jpg",
+  "2025/05/38.jpg",
+  "2025/05/39.jpg",
+  "2025/05/VISTA-01-1.jpg",
+  "2025/05/VISTA-01-2.jpg",
+  "2025/05/VISTA-01-3.jpg",
+  "2025/05/VISTA-01-4.jpg",
+  "2025/05/VISTA-02-1.jpg",
+  "2025/05/VISTA-02-2.jpg",
+  "2025/05/VISTA-02-3.jpg",
+  "2025/05/VISTA-02-4.jpg",
+  "2025/05/VISTA-03-1.jpg",
+  "2025/05/VISTA-03-2.jpg",
+  "2025/05/VISTA-03-3.jpg",
+  "2025/05/VISTA-03-4.jpg",
+  "2025/05/VISTA-04-2.jpg",
+  "2025/05/VISTA-04.jpg",
+  "2025/05/VISTA-05-1.jpg",
+  "2025/05/VISTA-05-2.jpg",
+  "2025/05/VISTA-05-4.jpg",
+  "2025/05/VISTA-05-5.jpg",
+  "2025/05/VISTA-06-1.jpg",
+  "2025/05/VISTA-06-2.jpg",
+  "2025/05/VISTA-06-4.jpg",
+  "2025/05/VISTA-06-5.jpg",
+  "2025/05/VISTA-07-1.jpg",
+  "2025/05/VISTA-07-2.jpg",
+  "2025/05/VISTA-07-3.jpg",
+  "2025/05/VISTA-08-1.jpg",
+  "2025/05/VISTA-08-2.jpg",
+  "2025/05/VISTA-08-3.jpg",
+  "2025/05/VISTA-09-1.jpg",
+  "2025/05/VISTA-09-2.jpg",
+  "2025/05/VISTA-09-3.jpg",
+  "2025/05/VISTA-10-1.jpg",
+  "2025/05/VISTA-10-2.jpg",
+  "2025/05/VISTA-10-3.jpg",
+  "2025/05/VISTA-11.jpg",
+  "2025/07/63A4795.jpg",
+  "2025/07/63A4805.jpg",
+  "2025/07/63A4807.jpg",
+  "2025/07/63A4856.jpg",
+  "2025/07/63A4870.jpg",
+  "2025/07/63A4875.jpg",
+  "2025/07/63A4876.jpg",
+  "2025/07/63A4898.jpg",
+  "2025/07/63A4911.jpg",
+  "2025/07/63A4917.jpg",
+  "2025/07/63A4943.jpg",
+  "2026/10/IMG_0179.jpeg",
+  "2026/10/Q.jpg",
+  "2026/10/ele.jpg",
+  "2026/10/foto-01-copia.jpg.jpeg"
+ ]
+}
