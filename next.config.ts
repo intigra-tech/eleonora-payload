@@ -11,6 +11,9 @@ const nextConfig: NextConfig = {
   poweredByHeader: false,
   async redirects() {
     return [
+      { source: '/:path*', has: [{ type: 'host', value: 'www.eleonorarighi.com' }], destination: 'https://eleonorarighi.com/:path*', permanent: true },
+      { source: '/sitemap_index.xml', destination: '/sitemap.xml', permanent: true },
+      { source: '/:name(page|post|portfolio|portfolio-item|category|portfolio-category)-sitemap:n(\\d*).xml', destination: '/sitemap.xml', permanent: true },
       { source: '/portfolio-item', destination: '/progetti', permanent: true },
       { source: '/portfolio-category', destination: '/progetti', permanent: true },
       { source: '/hello-world', destination: '/', permanent: true },
