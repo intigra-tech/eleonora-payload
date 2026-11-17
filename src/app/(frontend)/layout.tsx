@@ -25,6 +25,14 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   const c = s.contacts || {}
   return (
     <html lang="it">
+      {process.env.NOINDEX !== '1' && (
+        <head>
+          {/* iubenda: banner cookie e blocco automatico, stessa configurazione del vecchio sito */}
+          <script className="_iub_cs_skip" dangerouslySetInnerHTML={{ __html: 'var _iub=_iub||[];_iub.csConfiguration={"siteId":4016566,"cookiePolicyId":58216547,"lang":"it","storage":{"useSiteId":true}};' }} />
+          <script className="_iub_cs_skip" src="https://cs.iubenda.com/autoblocking/4016566.js" />
+          <script className="_iub_cs_skip" src="//cdn.iubenda.com/cs/iubenda_cs.js" async />
+        </head>
+      )}
       <body>
         <a className="skip" href="#main">Salta al contenuto</a>
         <header className="site-header">
