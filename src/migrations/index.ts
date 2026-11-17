@@ -3,6 +3,7 @@ import * as migration_20261116_101801_schede_e_banner from './20261116_101801_sc
 import * as migration_20261116_105755_mcp_bozze_ruoli from './20261116_105755_mcp_bozze_ruoli';
 import * as migration_20261116_124309_tool_upload from './20261116_124309_tool_upload';
 import * as migration_20261116_141706_seo_plugin from './20261116_141706_seo_plugin';
+import * as migration_20261117_104424_approvazione_alt from './20261117_104424_approvazione_alt';
 
 export const migrations = [
   {
@@ -28,6 +29,11 @@ export const migrations = [
   {
     up: migration_20261116_141706_seo_plugin.up,
     down: migration_20261116_141706_seo_plugin.down,
-    name: '20261116_141706_seo_plugin'
+    name: '20261116_141706_seo_plugin',
+  },
+  {
+    up: migration_20261117_104424_approvazione_alt.up,
+    down: migration_20261117_104424_approvazione_alt.down,
+    name: '20261117_104424_approvazione_alt'
   },
 ];

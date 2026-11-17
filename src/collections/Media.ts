@@ -1,10 +1,14 @@
 import type { CollectionConfig } from 'payload'
-import { canWrite, isStaff } from '../lib/access'
+import { canWrite, isStaff, roleOf } from '../lib/access'
 
 export const Media: CollectionConfig = {
   slug: 'media',
   labels: { singular: 'Immagine', plural: 'Immagini' },
-  access: { read: () => true, create: canWrite, update: isStaff, delete: isStaff },
+  access: { read: () => true, create: canWrite, update: canWrite, delete: isStaff },
+  hooks: {
+    // L'assistente AI può cambiare solo il testo alternativo.
+    beforeChange: [({ data, originalDoc, req, operation }) => (operation === 'update' && roleOf(req.user) === 'assistant' && originalDoc ? { ...originalDoc, alt: data.alt } : data)],
+  },
   admin: { useAsTitle: 'alt', defaultColumns: ['filename', 'alt', 'createdAt'] },
   fields: [{ name: 'alt', type: 'text', label: 'Testo alternativo', required: true }],
   upload: {

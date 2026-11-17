@@ -55,7 +55,7 @@ export default buildConfig({
         pages: { enabled: { find: true, create: true, update: true }, description: 'Pagine del sito (home, chi-sono, contatti, progetti) composte da blocchi. Le modifiche restano in bozza finché il cliente non le pubblica.' },
         projects: { enabled: { find: true, create: true, update: true }, description: 'Progetti del portfolio (titolo, copertina, testo, galleria). Le modifiche restano in bozza.' },
         'project-categories': { enabled: { find: true } , description: 'Categorie dei progetti (sola lettura).' },
-        media: { enabled: { find: true }, description: 'Libreria immagini (sola lettura).' },
+        media: { enabled: { find: true, update: true }, description: 'Libreria immagini: puoi solo leggere e cambiare il testo alternativo (alt), dopo conferma del cliente.' },
       },
       globals: { 'site-settings': { enabled: { find: true }, description: 'Impostazioni generali del sito (sola lettura).' } },
       mcp: { serverOptions: { instructions: mcpInstructions, serverInfo: { name: 'Sito Eleonora Righi', version: '1.0.0' } }, tools: customTools },
